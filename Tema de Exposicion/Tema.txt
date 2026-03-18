@@ -1,0 +1,6 @@
+Administración de Configuración de Software y Despliegue
+
+https://aws.amazon.com/es/what-is/configuration-management/
+
+https://www.atlassian.com/es/microservices/microservices-architecture/configuration-management
+

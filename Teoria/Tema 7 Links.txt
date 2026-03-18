@@ -1,0 +1,13 @@
+El costo de la no calidad
+https://www.youtube.com/watch?v=W56T8uMqaj0
+
+-------------------------
+
+Cómo diseñar casos de pruebas (Se basa en el estándar de prueba de software ISO 29119)
+https://www.youtube.com/watch?v=laawNIdX9js
+
+-------------------------
+
+Plan de pruebas (ISO 29119)
+https://www.youtube.com/watch?v=0anZpU5W0Z8
+

@@ -1,0 +1,18 @@
+Libros disponibles en biblioteca digital UNNE
+Diseño de base de datos
+
+Nieto Bernal, W. & Capacho Portilla, J. R. (2017). Diseño de base de datos: ( ed.). Universidad del Norte. https://elibro.net/es/lc/unne/titulos/70030 
+
+Merchán Manzano, O. (2016). Diseño de base de datos: (1 ed.). Universidad del Azuay. https://elibro.net/es/lc/unne/titulos/233930
+
+--------------------Otras lecturas adicionales-------------------------------------------------
+
+https://cursa.ihmc.us/rid=1H73QYLH3-6LFRCX-JT6/bdrelacional.pdf
+
+https://books.google.com.ar/books?hl=es&lr=&id=buM5rlZME-cC&oi=fnd&pg=PA9&dq=normalizacion+de+base+de+datos+&ots=6L6GptACPG&sig=B-mPTTyyMyYYuSeACmshlsvoJPY#v=onepage&q&f=false
+
+ 
+
+http://ingenieriasimple.com/conred/el%20modelo%20relacional.pdf
+
+https://books.google.com.ar/books?hl=es&lr=&id=Vhum351T-K8C&oi=fnd&pg=PR17&dq=normalizacion+de+base+de+datos+relacionales&ots=fzL7NT9abl&sig=aVDsKYwZo7r4iCsofWCOdvhCWEc#v=onepage&q=normalizacion%20de%20base%20de%20datos%20relacionales&f=false
