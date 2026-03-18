@@ -1,7 +1,3 @@
-Aquí tienes una propuesta de archivo `README.md` estructurada, clara y concisa, basándonos en el programa analítico y en los contenidos de las presentaciones de la materia. Está diseñada para que tengas un índice ordenado donde puedas enlazar cada uno de tus apuntes por Tema.
-
-***
-
 # Ingeniería del Software II - Apuntes y Resúmenes
 
 ¡Bienvenido a mi repositorio de **Ingeniería del Software II**! 
