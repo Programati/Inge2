@@ -14,7 +14,7 @@ El repositorio está organizado siguiendo la estructura oficial del programa ana
 ### Unidad 1: Arquitectura y Diseño
 En esta unidad nos centramos en cómo estructurar un sistema desde cero, definiendo su organización global, sus datos y su diseño a nivel de objetos.
 
-*   **[Tema 1: Arquitectura de Software](.APUNTES/Tema_1.md)**
+*   **[Tema 1: Arquitectura de Software](.Apuntes/Tema_1.md)**
     Apuntes sobre decisiones de diseño arquitectónico, estilos de organización (repositorio, cliente-servidor, capas), estilos de control y arquitecturas de referencia y aplicaciones.
 *   **[Tema 2: Diseño de Software e Interfaz de Usuario](./tema2.md)**
     Conceptos de modularidad, abstracción, acoplamiento, cohesión, ocultamiento de información y el proceso de derivar el diseño a partir del análisis.
