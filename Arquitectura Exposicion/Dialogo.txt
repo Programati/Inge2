@@ -1,0 +1,25 @@
+
+**Guión: Patrón de Arquitectura de Microservicios**
+
+**1. El origen del problema: Las Aplicaciones Monolíticas**
+Antes de hablar de microservicios, es fundamental entender el enfoque clásico: las aplicaciones monolíticas. Normalmente, el desarrollo tradicional utiliza una arquitectura cliente-servidor donde el servidor es **un único ejecutable** que se encarga de recibir múltiples solicitudes, ejecutar toda la lógica de negocio y acceder a los datos.
+
+A este tipo de aplicación se le llama "monolito" porque funciona como un solo gran bloque, similar a un tótem indígena. Este modelo presenta dos grandes retos operativos:
+*   **Escalabilidad difícil y costosa:** Si la aplicación se queda "colgada" o necesita más recursos, la única solución es crear un nuevo servidor y **desplegar la aplicación entera** en otra máquina, lo cual incrementa los costos.
+*   **Despliegues complejos por cambios mínimos:** Si necesitas hacer una modificación muy pequeña en una sola parte del código, estás obligado a redesplegar toda la aplicación completa.
+
+**2. ¿Qué es la Arquitectura de Microservicios?**
+Para resolver los problemas del monolito, la arquitectura de microservicios propone separar esa gran aplicación en un **conjunto de servicios mucho más pequeños**. Estos servicios tienen cuatro características fundamentales:
+1.  **Procesos independientes:** Cada microservicio corre en su propio proceso, sin solaparse con los demás.
+2.  **Comunicación liviana:** Si necesitan interactuar entre ellos, lo hacen a través de mecanismos muy ligeros.
+3.  **Enfoque en el negocio:** Se desarrollan alrededor de las necesidades del negocio; existe una fuerte conexión entre cómo opera la empresa y cómo se diseñan los servicios.
+4.  **Alta automatización:** Requieren estar soportados por un proceso de despliegue y tareas de infraestructura altamente automatizados.
+
+**3. Topologías: ¿Cómo se organizan los microservicios?**
+Existen tres formas principales (o topologías) para organizar y conectar estos servicios en un sistema:
+
+*   **Topología basada en API REST:** En este enfoque, los servicios (que suelen ser bastante pequeños) no se acceden directamente. Se utiliza una **capa de API** que expone URLs públicas. Cuando un cliente hace una petición, la capa de API redirecciona la solicitud al microservicio correcto, este procesa la información y la devuelve para que la API responda al usuario. Su gran ventaja es que **esconde la estructura interna** de los microservicios, haciendo que todo sea transparente para quien consume la aplicación.
+
+*   **Topología de Aplicación (o Fachada):** Aquí, una aplicación desarrollada por ti mismo se conecta de forma directa a los microservicios. Los usuarios interactúan con esta aplicación central, y es ella la que **encapsula y oculta los llamados** a los distintos servicios. Este enfoque es común en **aplicaciones pequeñas a medianas**, y en este caso, los microservicios suelen ser un poco más grandes y robustos que en el modelo de API.
+
+*   **Topología basada en Mensajería:** En lugar de comunicarse a través de REST mediante peticiones directas, se utiliza un broker o **cola de mensajería**. La aplicación principal recibe las solicitudes de los usuarios y pone un mensaje en la cola; luego, esta cola redirige el mensaje al servicio correspondiente. Este enfoque es ideal para **aplicaciones más grandes** donde necesitas mayor control en el transporte, encolamiento de tareas, monitoreo y un manejo óptimo de procesos asíncronos.
